@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Netclicks</title>
+  <link rel="preload" href="./fonts/inter-v18-cyrillic_latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./scripts.js" defer></script>
+</head>
+<body>
+  <header class="header">
+    <div class="container header__container">
+      <div class="logo">
+        <h1 class="logo__name">Netclicks</h1>
+        <p class="logo__text">всё о сериалах</p>
+      </div>
+      <a class="controls" href="#!">Вход и регистрация</a>
+      <img class="burger" src="./img/burger.svg" alt="Мобильное меню">
+    </div>
+  </header>
+
+  <main>
+    <div class="search-block">
+      <div class="container">
+        <div class="search">
+          <input class="search__input" type="text" placeholder="Что хотите посмотреть?">
+          <button class="search__btn">
+            <img class="search__btn-img" src="./img/search.svg" alt="иконка поиска">
+            <span class="search__btn-text">Найти</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <section class="content">
+      <div class="container content__container">
+        <div class="content-wrapper content-wrapper_film">
+          <div class="film">
+            <img class="film__poster" src="./img/poster.jpeg" alt="Film poster" width="460" height="655">
+            <div class="film__content">
+              <div class="film__head">
+                <h2 class="film__title"><span>Марсианин</span>, The Martian 2015</h2>
+                <p class="film__style">Фантастика, приключения</p>
+                <p class="film__rating">7.8</p>
+              </div>
+
+              <div class="film__description">
+                <p class="film__description-text">Марсианская миссия «Арес-3» в процессе работы была вынуждена экстренно покинуть планету из-за надвигающейся песчаной бури. Инженер и биолог Марк Уотни получил повреждение скафандра во время песчаной бури. Сотрудники миссии, посчитав его погибшим, эвакуировались с планеты, оставив Марка одного.</p>
+                <p class="film__description-text">Очнувшись, Уотни обнаруживает, что связь с Землёй отсутствует, но при этом полностью функционирует жилой модуль. Главный герой начинает искать способ продержаться на имеющихся запасах еды, витаминов, воды и воздуха ещё 4 года до прилёта следующей миссии «Арес-4».</p>
+              </div>
+
+              <button class="film__btn">Смотреть</button>
+            </div>
+          </div>
+        </div>
+
+        <aside class="selections-wrapper">
+          <h3 class="selections-wrapper__title">Подборки фильмов и сериалов</h3>
+
+          <ul class="selections">
+            <li class="selection">
+              <a class="selection__link" href="#!"><h3 class="selection__title">Топ-250</h3></a>
+              <p class="selection__descr">Подборка фильмов и сериалов с наивысшими оценками зрителей</p>
+            </li>
+            <li class="selection">
+              <a class="selection__link" href="#!"><h3 class="selection__title">Посмеяться от души</h3></a>
+              <p class="selection__descr">Подборка комедий, которые помогут расслабиться после работы</p>
+            </li>
+            <li class="selection">
+              <a class="selection__link" href="#!"><h3 class="selection__title">Запутанный сюжет</h3></a>
+              <p class="selection__descr">Триллеры и прключения с запутанным и интересным сюжетом. Невозможно оторваться!</p>
+            </li>
+          </ul>
+
+          <div class="footer">
+            <p class="footer__copyright">© ООО «Неткликс», 2024</p>
+            <a class="footer__link" href="#!">Политика конфиденциальности</a>
+            <a class="footer__link" href="#!">Обработка персональных данных</a>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+</body>
+</html>
