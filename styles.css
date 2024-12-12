@@ -51,6 +51,11 @@ ul {
 }
 button, input, a {
   cursor: pointer;
+  font: inherit;
+  color: inherit;
+}
+a {
+  text-decoration: none;
 }
 .container {
   max-width: 1196px;
@@ -155,10 +160,12 @@ button, input, a {
   gap: 40px 30px;
 }
 .card {
+  width: calc((100% - 60px) / 3);
+}
+.card__link {
   display: flex;
   flex-direction: column;
   gap: 12px;
-  width: calc((100% - 60px) / 3);
 }
 .card__poster {
   max-height: 376px;
